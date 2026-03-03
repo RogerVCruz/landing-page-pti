@@ -1,0 +1,24 @@
+{
+  "name": "pti-senac",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "predeploy": "echo Preparando deploy...",
+    "deploy": "gh-pages -d . -x node_modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RogerVCruz/landing-page-pti.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RogerVCruz/landing-page-pti/issues"
+  },
+  "homepage": "https://rogervccruz.github.io/landing-page-pti",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
